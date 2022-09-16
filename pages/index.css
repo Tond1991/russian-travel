@@ -41,11 +41,12 @@
 
 /* COVER */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/link/link.css);
+
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
