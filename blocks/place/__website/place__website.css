@@ -1,0 +1,15 @@
+.place__website {
+    margin: 0 0 48px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 22px);
+    align-self: end;
+    grid-area: website;
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        margin: 32px 16px;
+    }
+}
