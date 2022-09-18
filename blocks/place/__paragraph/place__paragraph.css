@@ -2,7 +2,6 @@
     max-width: 484px;
     margin: 0 0 26px;
     padding: 0;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -25,6 +24,6 @@
 @media screen and (max-width: 767px) {
     .place__paragraph {
         max-width: 352px;
-        margin: 32px 16px 25px;
+        margin: 0 16px 25px;
     }
 }

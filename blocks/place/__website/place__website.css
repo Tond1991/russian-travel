@@ -3,7 +3,6 @@
     padding: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 22px);
     align-self: end;
     grid-area: website;
 }
