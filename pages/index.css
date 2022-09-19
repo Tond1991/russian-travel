@@ -1,6 +1,13 @@
 @import url(../vendor/normalize.css);
 /* ШРИФТЫ INTER */
 @import url(../vendor/fonts.css);
+
+/* BODY*/
+@import url(../blocks/body/body.css);
+
+/* PAGE */
+@import url(../blocks/page/page.css);
+
 /* HEADER */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
@@ -44,7 +51,6 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__link/cover__link.css);
 
 
@@ -54,22 +60,5 @@
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-body {
-    background-color: #2A2C2F;
-}
-
-
-
-
-.page {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0;
-    background-color: #2A2C2F;
-    font-family: 'INTER', 'Arial', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
- }
 
  
